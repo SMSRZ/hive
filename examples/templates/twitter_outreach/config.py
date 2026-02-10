@@ -28,6 +28,10 @@ class RuntimeConfig:
     api_key: str | None = None
     api_base: str | None = None
 
+from dataclasses import dataclass
+
+from framework.config import RuntimeConfig
+
 default_config = RuntimeConfig()
 
 
